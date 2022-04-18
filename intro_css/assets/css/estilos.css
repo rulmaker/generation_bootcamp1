@@ -1,0 +1,81 @@
+/* Selector universal */
+/* *{
+    background-color: blue;
+} */
+
+/* :root{
+
+}
+
+html{
+
+} */
+
+/* Selector de etiqueta */
+/* h1{
+
+} */
+
+/* Selector de clase */
+
+/* body{
+    background-color: #1A67D0;
+} */
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+/* Selector de ID */
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0 , 0, 255, .6);
+}
+
+/* !Important tiene la mayor jerarquía */
+
+.color{
+    background-color: aquamarine;
+}
+
+.color{
+    background-color: blue;
+}
+
+.color{
+    background-color: blueviolet;
+}
+
+.color-texto{
+    color: rgb(255,255, 255);
+    background-color: crimson;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+.borde{
+    border: 3px solid black;
+    /* border-top: 3px solid green;
+    border-right: 3px dashed red;
+    border-bottom: 3px solid black;
+    border-left: 3px solid blue; */
+    text-align: center;
+    line-height: 100px;
+}
+
+
+p{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
