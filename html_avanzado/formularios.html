@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS propios -->
+    <link rel="stylesheet" href="assets/css/formularios.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellido" size="10">
+        <input type="text" value="Juanito">
+        <input type="text"  minlength="5">
+
+        <!-- number -->
+        <input type="number" min="10" max="100" step="5">
+
+        <!-- Date -->
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="datetime-local">
+        <input type="time">
+
+        <input type="password">
+
+        <input type="file">
+        <input type="range" min="1" max="10">
+        <input type="checkbox" value="hola" class="check">
+        <input type="radio" name="n1" value="n1">
+        <input type="reset">
+
+        <select name="menu" id="" size="1">
+            <option value="uno">Uno</option>
+            <option value="dos" selected>Dos</option>
+        </select>
+        <input type="color" value="#ff0000">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit">
+
+
+       
+    </form>
+
+    <div class="dad">
+        <div class="padre">Padre</div>
+    
+    </div>
+
+    
+    <div class="padre2">Padre2</div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt totam praesentium fuga dolorum culpa temporibus sapiente corporis ipsam nesciunt possimus aliquid nemo voluptatibus nisi quibusdam, enim nulla animi asperiores! Harum molestias neque itaque porro laudantium repudiandae ea architecto inventore, atque numquam dolorum, quam quos nam reiciendis enim nesciunt pariatur id rem temporibus ex unde eius explicabo tenetur iure. Ipsa error, iusto laboriosam provident quibusdam maxime magni similique commodi aliquam. Fugit, voluptas. Vitae asperiores accusamus iste aliquid hic, quibusdam ipsum quas nemo exercitationem atque, neque nisi debitis, vero odit in architecto alias porro. Laudantium incidunt et reiciendis quod mollitia, eligendi est!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt totam praesentium fuga dolorum culpa temporibus sapiente corporis ipsam nesciunt possimus aliquid nemo voluptatibus nisi quibusdam, enim nulla animi asperiores! Harum molestias neque itaque porro laudantium repudiandae ea architecto inventore, atque numquam dolorum, quam quos nam reiciendis enim nesciunt pariatur id rem temporibus ex unde eius explicabo tenetur iure. Ipsa error, iusto laboriosam provident quibusdam maxime magni similique commodi aliquam. Fugit, voluptas. Vitae asperiores accusamus iste aliquid hic, quibusdam ipsum quas nemo exercitationem atque, neque nisi debitis, vero odit in architecto alias porro. Laudantium incidunt et reiciendis quod mollitia, eligendi est!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt totam praesentium fuga dolorum culpa temporibus sapiente corporis ipsam nesciunt possimus aliquid nemo voluptatibus nisi quibusdam, enim nulla animi asperiores! Harum molestias neque itaque porro laudantium repudiandae ea architecto inventore, atque numquam dolorum, quam quos nam reiciendis enim nesciunt pariatur id rem temporibus ex unde eius explicabo tenetur iure. Ipsa error, iusto laboriosam provident quibusdam maxime magni similique commodi aliquam. Fugit, voluptas. Vitae asperiores accusamus iste aliquid hic, quibusdam ipsum quas nemo exercitationem atque, neque nisi debitis, vero odit in architecto alias porro. Laudantium incidunt et reiciendis quod mollitia, eligendi est!</p>
+    <script>
+        const valor = document.querySelector('.check')
+        console.log(valor.checked);
+    </script>
+</body>
+</html>
