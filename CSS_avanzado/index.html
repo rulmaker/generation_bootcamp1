@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/fuentes.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>CSS Avanzado</title>
+</head>
+<body>
+    <h1>CSS Avanzado</h1>
+
+    <div class="cuadro div1">Div 1</div>
+
+    <button>Esconder</button>
+    
+    <div class="cuadro padre">
+        <div class="cuadro div2">Div 2</div>
+    </div>
+    
+    <div class="cuadro div3">Div 3</div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga perspiciatis recusandae nisi! Reprehenderit cum sit, aliquid ipsum quas placeat. Odio assumenda voluptates placeat perferendis aut, mollitia sit molestiae incidunt provident earum ut accusamus adipisci ratione iste qui rerum, voluptatem eaque dolorem labore corrupti architecto veniam? Porro, debitis? Sapiente corrupti culpa, recusandae temporibus totam minima. Exercitationem placeat aliquid temporibus impedit libero tempore dignissimos numquam asperiores, eum facere. Amet, accusamus! Repellendus quibusdam hic ducimus blanditiis iure, illo magni neque optio quaerat? Fuga possimus mollitia vero quae aspernatur soluta ipsam. Necessitatibus, laboriosam accusantium inventore ipsam unde magni illum ex doloremque incidunt voluptatum explicabo facere repudiandae cumque facilis consequuntur itaque assumenda adipisci! Autem pariatur, aliquid, dignissimos ipsam modi dolore laboriosam sunt consequatur asperiores assumenda ex tempora rem eligendi, esse aliquam at? Odio neque, tempore et officiis ea voluptatem exercitationem porro corrupti! Ipsam numquam perspiciatis nihil enim amet doloribus quos fuga magnam voluptate dolores omnis atque modi sequi alias id placeat sunt soluta in provident, animi perferendis est explicabo obcaecati exercitationem! Nisi quo soluta quas, est eos pariatur. Eos, fugit cupiditate. Eveniet quia facere placeat vero voluptas eaque sit quis necessitatibus itaque ducimus harum culpa incidunt, quas tempore nisi esse tempora impedit numquam saepe laborum magni, doloribus aut iure. Similique, illum at nam dicta necessitatibus, deserunt quaerat atque sapiente ipsa, est aliquam omnis? Culpa quos adipisci aliquid temporibus unde ipsum vel eos, fugit, omnis est consequuntur molestias non. Enim fuga provident labore magni id aliquam quidem fugit veniam architecto quia ut, minima ab vel ratione odio mollitia excepturi maiores. Natus fugiat ipsa, eum esse tenetur repellat voluptates aperiam quaerat iure deleniti neque, ad mollitia dolores sint? Consequatur cumque fuga exercitationem corporis delectus fugiat suscipit sint, vel deleniti eveniet molestias accusamus dicta accusantium nesciunt laborum optio soluta ex voluptatum. Ab veritatis illum placeat fuga commodi eum sequi unde veniam minus eos minima vitae soluta dolores magni enim ex accusantium, distinctio sit? Eligendi enim accusantium mollitia vel tempore expedita consequuntur sapiente vitae in inventore, accusamus, adipisci quam incidunt doloremque aliquam libero porro nisi labore debitis suscipit, quia ea. Libero quo recusandae eaque magnam nam! Ex voluptatibus harum temporibus, laudantium deleniti porro facilis accusantium placeat labore eaque eveniet nihil perferendis recusandae reprehenderit voluptas sapiente molestiae quaerat debitis voluptates veniam illo repudiandae earum fugit assumenda! Voluptates explicabo tempora consectetur temporibus odit, provident obcaecati in quam aut, ex numquam incidunt voluptatem reprehenderit eveniet placeat. Soluta odio explicabo provident eum. Saepe.</p>
+<script>
+    const boton = document.querySelector('button');
+
+    boton.addEventListener('click', () => {
+        const div1 = document.querySelector('.div2');
+        
+        if(div1.style.display === 'none'){
+            div1.style.display = 'block'
+        }else {
+            div1.style.display = 'none'
+        }
+    })
+</script>
+</body>
+</html>
